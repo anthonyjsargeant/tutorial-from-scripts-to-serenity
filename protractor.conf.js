@@ -19,7 +19,7 @@ exports.config = {
     ignoreUncaughtExceptions: true,
 
     framework: 'custom',
-    frameworkPath: require.resolve('protractor-cucumber-framework'),
+    frameworkPath: require.resolve('serenity-js'),
 
     specs: [ 'features/**/*.feature' ],
 

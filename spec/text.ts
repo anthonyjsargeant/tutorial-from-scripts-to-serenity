@@ -5,6 +5,6 @@
  * @param commaSeparatedValues
  * @return {string[]}
  */
-export function listOf (commaSeparatedValues: string): string[] {
+export function listOf(commaSeparatedValues: string): string[] {
     return commaSeparatedValues.split(',').map(i => i.trim());
-};
+}
